@@ -40,9 +40,6 @@ app.use(cors(corsOptions));
 app.use(Router);
 
 mongoose.connect(
-  "mongodb+srv://admin:<serve$123>@cluster1.xiyn3wf.mongodb.net/",
-  // mongodb+srv://admin:<password>@cluster1.xiyn3wf.mongodb.net/
-  {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   }
